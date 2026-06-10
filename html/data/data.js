@@ -1,4 +1,4 @@
-const schools = [
+const records = [
   {
     id: 1,
     name: "Trường THPT Nguyễn Huệ",
@@ -30,7 +30,7 @@ const schools = [
   {
     id: 5,
     name: "Trường THPT Giáp Hải",
-    district: "Bắc Giang",
+    district: "Phòng GD&ĐT TP. Bắc Giang",
     status: "Hoàn thành",
     description: "Đã hoàn thành hệ thống số hóa."
   }
