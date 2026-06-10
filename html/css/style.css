@@ -21,6 +21,9 @@ main{
     gap: 50px;
 }
 #left-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width:20%;
     background: white;
     padding:15px;
