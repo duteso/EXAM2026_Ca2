@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Hệ thống quản lý hồ sơ chuyển đổi số</h1>
+        </div>
+        <div>
+            <span>Sở Giáo Dục và Đào Tạo - Ứng dụng quản lý tiến trình chuyển đổi số các trường học</span>
+        </div>
+    </header>
+    <main>
+        <div id="left-sidebar">
+            <h3>Thêm hồ sơ mới</h3>
+            <div>
+                <form action="#">
+                    <span>Tên trường</span>
+                    <br>
+                    <input type="text" name="name" id="tenTruong">
+                    <br>
+                    <span>Đơn vị quản lý</span>
+                    <br>
+                    <select id="district">
+                        <option>Thủy Nguyên</option>
+                        <option>Thủy lợi</option>
+                        <option>Lê Chân</option>
+                        <option>Hồng Bàng</option>
+                        <option>Bắc Giang</option>
+                    </select>
+                    <br>
+                    <span>Trạng thái chuyển đổi</span>
+                    <br>
+                     <select id="status">
+                        <option>Chưa bắt đầu</option>
+                        <option>Đang triển khai</option>
+                        <option>Hoàn thành</option>
+                    </select>
+                    <br>
+                    <textarea id="description" rows="4" placeholder="Mô tả tiến độ"></textarea>
+                    <br>
+                    <button>Thêm hồ sơ</button>
+                </form>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="buttons">
+                <button id="all">Tất cả</button>
+                <button id="notStart">Chưa bắt đầu</button>
+                <button id="inProgress">Đang triển khai</button>
+                <button id="done">Hoàn thành</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
