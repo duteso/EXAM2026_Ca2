@@ -17,6 +17,9 @@ header{
 header span{
     opacity: 75%;
 }
+main{
+    gap: 50px;
+}
 #left-sidebar{
     width:30%;
     background:white;
@@ -49,6 +52,21 @@ button:hover{
 main{
     display: flex;
 }
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#totals button{
+    width:100%;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #1f4fe0;
+    outline: 1px solid black;
+    border:none;
+    cursor:pointer;
+    color: white;
+}
 #buttons{
     display: flex;
 }
@@ -65,4 +83,39 @@ main{
 }
 #all{
     background: #1f4fe0;
+    color: white;
+}
+#cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#card{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    outline: 1px solid black;
+    border-radius: 10px;
+}
+#hoanThanh{
+    font-size: small;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10%;
+}
+#dangTrienKhai{
+    font-size: small;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 10%; 
+}
+#chuaBatDau{
+    font-size: small;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 10%; 
 }
