@@ -34,11 +34,16 @@ main{
     color: #1f4fe0;
 }
 input,
-select,
+select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
 textarea{
     width:100%;
     padding:10px;
     margin:10px 0;
+    row
 }
 
 form button{
